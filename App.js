@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={{ fontSize: 60 }}>Deficiência Visual:</Text>
+      <Text style={{ fontSize: 30, color: 'white' }}>Deficiência Visual:</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -13,7 +13,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'black',
     alignItems: 'center',
     justifyContent: 'center',
   },
