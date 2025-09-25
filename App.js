@@ -2,9 +2,10 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
-  return(
-    <View>
-      <Text style={}>Deficiencia Visual:</Text>
+  return (
+    <View style={styles.container}>
+      <Text style={{ fontSize: 60 }}>Deficiência Visual:</Text>
+      <StatusBar style="auto" />
     </View>
   );
 }
@@ -17,4 +18,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-
