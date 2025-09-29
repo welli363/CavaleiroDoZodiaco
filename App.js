@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Titulo from "./src/components/Titulo"
 import Subtitulo from './src/components/Subtitulo';
 import Texto from "./src/components/Texto"
+import TextoCausas from "./src/components/TextoCausas"
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
     <Titulo/>
     <Subtitulo/>
     <Texto/>
+    <TextoCausas/>
     </View>
   );
 }
