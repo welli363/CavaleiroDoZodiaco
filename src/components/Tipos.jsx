@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function Tipos (){
     return(
         <View>
-            <Text style={{fontSize: 20, color: '#0000FF', marginTop: 20, marginBottom: 0.5, fontWeight:'bold', marginLeft: 20}}>
+            <Text style={{fontSize: 20, color: '#87CEEB', marginTop: 20, marginBottom: 0.5, fontWeight:'bold', marginLeft: 20}}>
                 Tipos de deficiência Visual
             </Text>
             <Text style={{fontSize: 20, color: "white", margin: 10}}>
