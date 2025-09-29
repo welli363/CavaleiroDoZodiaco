@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function TextoCausas (){
     return (
         <View>
-            <Text style={{fontSize: 20, color: '#fff', marginTop: 20, marginBottom: 0.5, fontWeight:'bold', marginLeft: 20}}>
+            <Text style={{fontSize: 20, color: '#008000', marginTop: 20, marginBottom: 0.5, fontWeight:'bold', marginLeft: 20}}>
                 Causas mais comuns
             </Text>
         <Text style={{fontSize: 20, color: "white", margin: 10}}>

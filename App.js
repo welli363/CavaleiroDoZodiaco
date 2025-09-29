@@ -10,13 +10,15 @@ import Tipos from "./src/components/Tipos"
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <ScrollView>
+   <View style={styles.container}>
     <Titulo/>
     <Subtitulo/>
     <Texto/>
     <TextoCausas/>
     <Tipos/>
     </View>
+    </ScrollView>
   );
 }
 
