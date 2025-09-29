@@ -6,7 +6,7 @@ import Texto from "./src/components/Texto"
 import TextoCausas from "./src/components/TextoCausas"
 import Tipos from "./src/components/Tipos"
 
-
+   
 
 export default function App() {
   return (
